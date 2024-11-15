@@ -7,10 +7,10 @@ import pandas as pd
 st.title("Прогнозирование Просрочки по Кредиту")
 
 
-with open('/app/my_app/model.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-with open('/app/my_app/kmeans_model.pkl', 'rb') as file:
+with open('kmeans_model.pkl', 'rb') as file:
     kmeans = pickle.load(file)
 
 
